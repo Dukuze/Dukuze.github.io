@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS SIO - Leon Dukuze</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./bts.html">BTS SIO</a></li>
+                <li><a href="#ppe">PPE</a></li>
+                <li><a href="#veille">Veille Technologique</a></li>
+                <li><a href="#experience">Expérience Professionnelle</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Carousel Section -->
+    <section id="bts-sio">
+        <h1>Présentation du BTS SIO</h1>
+
+        <div class="carousel">
+            <div><img src="../img/sio.png" alt="Filière BTS SIO"></div>
+            <div><img src="../img/slam.png" alt="Option SLAM"></div>
+            <div><img src="../img/sisr.png" alt="Option SISR"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Adresse : 300 Allée Pablo Neruda, 91000, Évry</p>
+        <p>Email : <a href="mailto:Dukuze8leon@gmail.com">Dukuze8leon@gmail.com</a></p>
+        <p>Téléphone : 07 82 40 66 48</p>
+    </footer>
+
+    <!-- JavaScript pour le carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                dots: false,  /* Désactiver les chiffres (dots) */
+                arrows: true, /* Activer les flèches */
+                prevArrow: '<button type="button" class="slick-prev">←</button>',
+                nextArrow: '<button type="button" class="slick-next">→</button>'
+            });
+        });
+    </script>
+
+</body>
+</html>

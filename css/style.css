@@ -49,6 +49,17 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
+/* Section BTS SIO */
+#bts-sio {
+    text-align: center;
+    padding: 50px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
 /* Style du footer */
 footer {
     background-color: #333;
@@ -64,4 +75,32 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Flèches du carousel */
+.slick-prev,
+.slick-next {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: #555;
 }
