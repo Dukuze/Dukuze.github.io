@@ -1,0 +1,143 @@
+/* Style du corps */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Conteneur principal pour le contenu */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* En-tête de la page */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    min-height: 30px;
+    border-bottom: #bbb 1px solid;
+    text-align: center;
+}
+
+/* Navigation dans l'en-tête */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Pas de soulignement pour les liens dans la barre de navigation */
+    font-weight: bold;
+}
+
+/* Style de la section hero */
+.hero {
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Style du contenu principal */
+.content {
+    padding: 20px;
+    background: #fff;
+    margin: 20px 0;
+}
+
+/* Titres de niveau 2 */
+h2 {
+    color: #333;
+}
+
+/* Listes non ordonnées dans le contenu */
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Éléments de liste dans le contenu */
+.content ul li {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Liens dans les listes du contenu */
+.content ul li a {
+    color: #333;
+    text-decoration: none; /* Pas de soulignement par défaut pour les liens dans les listes */
+}
+
+.content ul li a:hover {
+    text-decoration: underline; /* Soulignement au survol uniquement pour les liens dans les listes */
+}
+
+/* Style du footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #008CBA;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Flèches du carousel */
+.slick-prev,
+.slick-next {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: #555;
+}
