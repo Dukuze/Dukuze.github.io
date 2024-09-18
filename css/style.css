@@ -104,3 +104,20 @@ footer a:hover {
 .slick-next:hover {
     background-color: #555;
 }
+
+.experience-image {
+
+    height: 250px;
+}
+
+.experience-image2 {
+
+    height: 150px;
+    width: 450px;
+}
+
+.experience-image3 {
+
+    height: 210px;
+    width: 450px;
+}
