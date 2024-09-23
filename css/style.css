@@ -34,10 +34,14 @@ nav ul li a {
 
 /* Style de la section hero */
 .hero {
-    background-color: #008CBA;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
+    width: 100vw; /* Prend toute la largeur de la fenêtre */
+    height: 63vh; /* Prend toute la hauteur de la fenêtre */
+    background-image: url('../img/folio.png'); /* Remplace par ton image */
+    background-size: cover; /* Couvre toute la section, peut couper l'image */
+    background-position: center; /* Centre l'image dans la section */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1 {
