@@ -22,7 +22,9 @@
 
     <section id="accueil" class="hero">
     </section>
-<br>
+
+<section class="container">
+
 
 <h1>Présentation</h1>
 
@@ -48,6 +50,23 @@
 <br>
 
 <p>Je vous souhaite une bonne visite.</p>
+
+<embed src="../pdf/CV_LD_EN-1.pdf" width="600" height="500" type="application/pdf" class = "pdf-container">
+
+</section>
+
+
+
+<script>
+    const toggleDescriptions = document.querySelectorAll('.toggle-description');
+
+    toggleDescriptions.forEach(toggle => {
+        toggle.addEventListener('click', function() {
+            const description = this.nextElementSibling;
+            description.style.display = description.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
 
     <footer>
         <p>Adresse : 300 Allée Pablo Neruda, 91000, Évry</p>
